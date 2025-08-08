@@ -51,17 +51,15 @@ Option	Description
 🧪 VirusTotal Integration
 You can upload generated payloads directly to VirusTotal using your API key to check real-time AV detection rate.
 
-bash
-Copy
-Edit
+
 python shell.py --upload-vt --api-key "   " --input output.exe
 Returns:
 
-✅ Detection ratio
+ Detection ratio
 
-✅ Engine names
+ Engine names
 
-✅ VT report link
+ VT report link
 
 ⚠️ Avoid frequent scans to prevent AV signature sharing.
 
